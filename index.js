@@ -19,7 +19,7 @@ for( let i =0; i < num; i++){
   let meal =[protiens[i],starches[i], veggies[i], bev[i],snacks[i]];
   console.log(`Menu ${i+1} : ${meal}`);
   pantry.push(meal);
-  if(meal.indexOf("kale") != -1){
+  if(meal.indexOf("kale" || "more kale") != -1){
     console.log("(Don't worry, you can have chocolate tomorrow)");
   }
 }
